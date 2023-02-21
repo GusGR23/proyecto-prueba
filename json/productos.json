@@ -1,0 +1,382 @@
+[
+        {
+            "id":1,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Taza con forma de payaso IT",
+            "tipo":"Hogar",
+            "descripcion":"Taza de ceramica con forma de la cara del payaso IT",
+            "precio":3500,
+            "img": "/assets/productos/taza-forma-cara.jpg"
+        },
+        {
+            "id":2,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Juego de mesa Monopoly",
+            "tipo": "Diversión",
+            "descripcion":"Clásico juego de mesa con la tematica de la película.",
+            "precio":10300,
+            "img":"/assets/productos/monopoly-it.jpg"
+        },
+        {
+            "id":3,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Bola de nieve",
+            "tipo": "Decoración",
+            "descripcion":"Bola de nieve con purpurina y muñeco de IT",
+            "precio":14000,
+            "img":"/assets/productos/bola-de-nieve.jpg"
+        },
+        {
+            "id":4,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Mascara payaso IT",
+            "tipo": "Disfráz",
+            "descripcion":"Mascara de latex",
+            "precio":19000,
+            "img":"/assets/productos/mascara1.jpg"
+        },
+        {
+            "id":5,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Figura coleccionable",
+            "tipo": "Coleccionables",
+            "descripcion":"Figura coleccionable del payaso IT de Tim Curry",
+            "precio":21000,
+            "img":"/assets/productos/munecoPrimerIT2.jpeg"
+        },
+        {
+            "id":6,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Mini lampara IT",
+            "tipo": "Decoración",
+            "descripcion":"Mini lampara del payaso IT",
+            "precio":8500,
+            "img":"/assets/productos/mini-lampara.jpg"
+        },
+        {
+            "id":7,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Figura de coleccion remake IT",
+            "tipo": "Coleccionables",
+            "descripcion":"IRON Neca IT-estatua de payaso It Deluxe Pennywise",
+            "precio":25500,
+            "img":"/assets/productos/iron-figura.jpg"
+        },
+        {
+            "id":8,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Remera",
+            "tipo": "Indumentaria",
+            "descripcion":"Remera con la cara del ultimo payaso IT",
+            "precio":5000,
+            "img":"/assets/productos/remera-remake.jpg"
+        },
+        {
+            "id":9,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Funko Pop - Funhouse",
+            "tipo": "Coleccionables",
+            "descripcion":"Figura Funko Pop con la casa de la risa de IT",
+            "precio":16000,
+            "img":"/assets/productos/funko-funhouse.png"
+        },
+        {
+            "id":10,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Taza termica IT",
+            "tipo": "Hogar",
+            "descripcion":"Cambia de color con la temperatura del liquido",
+            "precio":7000,
+            "img":"/assets/productos/taza-termica.jpg"
+        },
+        {
+            "id":11,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Remera",
+            "tipo": "Indumentaria",
+            "descripcion":"Remera con la cara del IT de Tim Curry",
+            "precio":4000,
+            "img":"/assets/productos/remera-curry.jpg"
+        },
+        {
+            "id":12,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"IT Capitulo 2 Ultimate",
+            "tipo": "Coleccionables",
+            "descripcion":"Muñeco articulado con tres cabezas y cinco manos extras, y un globo rojo",
+            "precio":41500,
+            "img":"/assets/productos/articulado.jpg"
+        },
+        {
+            "id":13,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Disfráz infantil",
+            "tipo": "Disfráz",
+            "descripcion":"Disfráz infantil con zapatos, cuchillo y globo rojo",
+            "precio":8200,
+            "img":"/assets/productos/by06838-disfraz-payaso-malo-siniestro-infantil-1.jpg"
+        },
+        {
+            "id":14,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Libro (Inglés). Nueva edición",
+            "tipo": "Libro",
+            "descripcion":"Nueva edición en inglés, en tapas duras con sobrecubierta, publicado por Scribner.",
+            "precio":8300,
+            "img":"/assets/productos/it-ingles.jpg"
+        },
+        {
+            "id":15,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Funko Pop - Mike Hanlon",
+            "tipo": "Coleccionables",
+            "descripcion":"Figura Funko Pop de Mike Hanlon - The Losers Club",
+            "precio":5500,
+            "img":"/assets/productos/funko-mike.jpg"
+        },
+        {
+            "id":16,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Baraja de naipes",
+            "tipo": "Diversión",
+            "descripcion":"Pantek juego de naipes Pennywise payaso It",
+            "precio":7150,
+            "img":"/assets/productos/naipes-it.jpg"
+        },
+        {
+            "id":17,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Funko Pop - Beverly Marsh",
+            "tipo": "Coleccionables",
+            "descripcion":"Figura Funko Pop de Bev Marsh - The Losers Club",
+            "precio":5500,
+            "img":"/assets/productos/funko-pop-it-beverly-marsh.jpg"
+        },
+        {
+            "id":18,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Poster oficial Capítulo 2 - Cine",
+            "tipo": "Decoración",
+            "descripcion":"Poster oficial de la pelicula IT Capítulo 2",
+            "precio":1600,
+            "img":"/assets/productos/it-capitulo-2-poster-oficial-cine.jpg"
+        },
+        {
+            "id":19,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Pares de medias",
+            "tipo": "Indumentaria",
+            "descripcion":"Dos pares de medias: 'We all float down here' 'IT The Movie'",
+            "precio":7200,
+            "img":"/assets/productos/medias.jpg"
+        },
+        {
+            "id":20,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Libro. Dos tomos. Tapa dura",
+            "tipo": "Libro",
+            "descripcion":"Edición en tapas duras, en dos tomos, de editorial Sudamericana.  corte en la parte posterior de uno de los tomos.",
+            "precio":16300,
+            "img":"/assets/productos/stephen-king-it-eso.jpg"
+        },
+        {
+            "id":21,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Funko Pop - Pennywise",
+            "tipo": "Coleccionables",
+            "descripcion":"Figura Funko Pop de IT con hierro en la cabeza",
+            "precio":5500,
+            "img":"/assets/productos/funko-pop-it-hurt.jpg"
+        },
+        {
+            "id":22,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Remera",
+            "tipo": "Indumentaria",
+            "descripcion":"Remera con cara de Pennywise dibujada",
+            "precio":3600,
+            "img":"/assets/productos/remera.jpg"
+        },
+        {
+            "id":23,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Rompecabezas",
+            "tipo": "Diversión",
+            "descripcion":"Rompecabezas 1000 piezas - 'Welcome to Derry'",
+            "precio":11350,
+            "img":"/assets/productos/rompecabezas-welcome-to-derry.jpg"
+        },
+        {
+            "id":24,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Libro. Dos tomos. Tapa dura",
+            "tipo": "Libro",
+            "descripcion":"Edición en dos tomos, en tapas duras con sobrecubierta impresa, publicado por RBA.",
+            "precio":14200,
+            "img":"/assets/productos/it-eso-libro-dos-tomos.jpg"
+        },
+        {
+            "id":25,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Taza Lover",
+            "tipo": "Hogar",
+            "descripcion":"Taza con inscripcion Loser/Lover",
+            "precio":11350,
+            "img":"/assets/productos/tazaLoverLoser.jpg"
+        },
+        {
+            "id":26,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Funko Pop - IT piernas de araña",
+            "tipo": "Coleccionables",
+            "descripcion":"Figura Funko Pop de Pennywise con las piernas de araña",
+            "precio":5700,
+            "img":"/assets/productos/funko-pop-it-spider-legs.jpg"
+        },
+        {
+            "id":27,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Llavero Pop",
+            "tipo": "Hogar",
+            "descripcion":"Llavero de Pennywise marca Funko POP",
+            "precio":3150,
+            "img":"/assets/productos/llavero-pop.jpg"
+        },
+        {
+            "id":28,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Colección de peliculas",
+            "tipo": "Diversión",
+            "descripcion":"Blu-ray: Las tres peliculas de IT. Incluye documental bonus",
+            "precio":16200,
+            "img":"/assets/productos/movies-3-ultimate.jpg"
+        },
+        {
+            "id":29,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Funko Pop - Georgie Denbrough",
+            "tipo": "Coleccionables",
+            "descripcion":"Figura Funko Pop de Georgie Denbrough sin el brazo",
+            "precio":5500,
+            "img":"/assets/productos/funko-pop-georgie.jpg"
+        },
+        {
+            "id":30,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Libro (Inglés). Primera edición",
+            "tipo": "Libro",
+            "descripcion":"Primera edición en inglés, en tapas duras con sobrecubierta, publicado por Viking.",
+            "precio":28500,
+            "img":"/assets/productos/it-ingles-primera-edicion.jpg"
+        },
+        {
+            "id":31,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Baraja de naipes",
+            "tipo": "Diversión",
+            "descripcion":"Naipes temáticos IT, con caja metalica coleccionable",
+            "precio":15700,
+            "img":"/assets/productos/naipes-caja-it.jpg"
+        },
+        {
+            "id":32,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Libro. De Bolsillo. Tapa blanda",
+            "tipo": "Libro",
+            "descripcion":"Edición en rustica/bolsillo, publicada por DeBolsillo.",
+            "precio":5200,
+            "img":"/assets/productos/it-eso-dbolsillo.jpg"
+        },
+        {
+            "id":33,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Máscara",
+            "tipo": "Disfráz",
+            "descripcion":"Máscara del Pennywise de Tim Curry",
+            "precio":8400,
+            "img":"/assets/productos/mascara-it-curry_.jpg"
+        },
+        {
+            "id":34,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Pin oficial promocional",
+            "tipo": "Otros",
+            "descripcion":"Pin oficial promocional producido por Viking en 1986 para el lanzamiento del libro y entregado a librerías.",
+            "precio":3200,
+            "img":"/assets/productos/it-pin-oficial-promocional.jpg"
+        },
+        {
+            "id":35,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Cuadro It chapter 2",
+            "tipo": "Decoración",
+            "descripcion":"Poster de la pelicula capitulo 2 con marco negro",
+            "precio":28500,
+            "img":"/assets/productos/cuadro-it.jpeg"
+        },
+        {
+            "id":36,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Alfombra de entrada 3D",
+            "tipo":"Hogar",
+            "descripcion":"Alfombra ecocuero con imagen de IT. Efecto 3D",
+            "precio":7800,
+            "img":"/assets/productos/alfombraCasa.jpg"
+        },
+        {
+            "id":37,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Vaso de vidrio oficial",
+            "tipo": "Hogar",
+            "descripcion":"Vaso de vidrio inscripcion IT, con licencia oficial.",
+            "precio":1800,
+            "img":"/assets/productos/vaso-vidrio.jpeg"
+        },
+        {
+            "id":38,
+            "cantidad":1,
+            "importeFinal": 0,
+            "nombre":"Juego de mesa Clue",
+            "tipo": "Diversión",
+            "descripcion":"Clásico juego de mesa con la tematica de la película.",
+            "precio":8400,
+            "img":"/assets/productos/clue-game.jpg"
+        }
+]
