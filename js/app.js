@@ -1,15 +1,62 @@
+//Finalizar compra
+const btnFinalizar = document.getElementById("btn-finalizar")
+// const btnPrueba = document.getElementById("btn-prueba")
+const modalCarrito = document.getElementById("exampleModal")
+btnFinalizar.addEventListener('click', async ()=>{
+    
+    const steps = ['1', '2', '3']
+    const swalQueueStep = Swal.mixin({
+    confirmButtonText: 'Forward',
+    cancelButtonText: 'Back',
+    progressSteps: steps,
+    input: 'text',
+    inputAttributes: {
+        required: true
+    },
+    reverseButtons: true,
+    validationMessage: 'This field is required'
+    })
+
+    const values = []
+    let currentStep
+
+    for (currentStep = 0; currentStep < steps.length;) {
+    const result = await swalQueueStep.fire({
+        title: `Question ${steps[currentStep]}`,
+        inputValue: values[currentStep],
+        showCancelButton: currentStep > 0,
+        currentProgressStep: currentStep
+    })
+
+    if (result.value) {
+        values[currentStep] = result.value
+        currentStep++
+    } else if (result.dismiss === Swal.DismissReason.cancel) {
+        currentStep--
+    } else {
+        break
+    }
+    }
+
+    if (currentStep === steps.length) {
+    Swal.fire(JSON.stringify(values))
+    }
+})
+
+//Creo el array productos vacio
+let productos = []
+
 fetch('json/productos.json')
     .then((resp)=>resp.json())
     .then((data) => {
-        console.log(data)
+
+        //llamo al JSON con fetch y lo igualo al array vacio "productos"
         productos=data
-        const productosJSON = JSON.stringify(data)
-        localStorage.setItem('productos', productosJSON)
+        pintarProductos(data)
+
     })
     .catch((err)=>console.log('hay un error', err))
 
-const productos = JSON.parse(localStorage.getItem('productos'))
-console.log(productos)
 
 const mainBody = document.getElementById('main-body')
 const productosContenedor = document.getElementById('productos-contenedor')
@@ -22,7 +69,6 @@ const pintarProductos = () => {
     
     //Recorro el array y creo una card por cada elemento del mismo
     productos.forEach((item) =>{
-        console.log(item)
         //Estructura
         const itemCard = document.createElement("div");
         itemCard.classList.add('card');
@@ -53,36 +99,32 @@ const pintarProductos = () => {
                 agregarAlCarrito(item.id)
         })
     })
-}
-//Llamo a la funcion para crear las cards de todos los productos
-pintarProductos()
-
-//CREACION DEL FILTRO
-const listaFiltro = document.getElementById('lista-filtro')
+    //CREACION DEL FILTRO
+    const listaFiltro = document.getElementById('lista-filtro')
 
     //Creo un nuevo array solo con la propiedad "tipo" de cada producto
-const tipoArray = productos.map((prod)=>prod.tipo)
+    const tipoArray = productos.map((prod)=>prod.tipo)
 
     //Con "...new Set(array)" hago que se eliminen los elementos duplicados 
     //del array y quede uno solo de c/u
-const filtroProductos = [...new Set(tipoArray)]
+    const filtroProductos = [...new Set(tipoArray)]
 
     //Creo la opcion de filtro "Todos" para deshacer los filtros aplicados
-const tipoProdTodos = document.createElement(`li`)
-tipoProdTodos.innerHTML = `<button id="filtroTodos" type="button">Todos</button>`
+    const tipoProdTodos = document.createElement(`li`)
+    tipoProdTodos.innerHTML = `<button id="filtroTodos" type="button">Todos</button>`
         //En caso de que el usuario elija esta opcion, se llama a la funcion para 
         //que se muestren todos los productos
-tipoProdTodos.addEventListener("click", pintarProductos)
-listaFiltro.appendChild(tipoProdTodos)
+    tipoProdTodos.addEventListener("click", pintarProductos)
+    listaFiltro.appendChild(tipoProdTodos)
 
     //Recorro el nuevo array creado para que se cree una opcion de filtro por cada
     //nuevo tipo de producto. Me permite agregar productos nuevos y si se suma un nuevo "tipo",
     //se agregue una nueva opcion de filtro.
-filtroProductos.forEach((item)=>{
+    filtroProductos.forEach((item)=>{
     const tipoProd = document.createElement('li')
     tipoProd.innerHTML=`<button id="filtro${item}" type="button">${item}</button>`
     listaFiltro.appendChild(tipoProd)
-    
+
     //Llamo al boton creado y le asigno el evento click
     const itemFiltro = document.getElementById(`filtro${item}`)
     itemFiltro.addEventListener('click', ()=>{
@@ -90,7 +132,8 @@ filtroProductos.forEach((item)=>{
         const filtrado = productos.filter((prod)=>prod.tipo===item)
         pintarFiltrado(filtrado)
     })
-})
+    })
+}
 
 //Creo la funcion y recibo como parametro el array filtrado
 const pintarFiltrado = (filtrado) =>{
@@ -143,8 +186,7 @@ btnVaciar.addEventListener("click", ()=>{
     })
     vaciadoToastify()
 })
-//Finalizar compra
-const btnFinalizar = document.getElementById("btn-finalizar")
+
 
 //Creacion de la seccion carrito
 let carrito = []
